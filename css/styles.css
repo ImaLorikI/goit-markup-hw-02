@@ -55,7 +55,7 @@ color: var(--hover);
 .section{
     background-color:#2e2f42;
 }
-.hh{
+.title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -73,11 +73,11 @@ color: var(--hover);
     cursor: pointer;
 }
 .button:hover{
-    color:var(--hover);
+    background-color:var(--hover);
 }
 .button:focus{
-    color: var(--hover);
+    background-color:var(--hover);
 }
 .button:active{
-    color: var(--hover);
+    background-color:var(--hover);
 }
