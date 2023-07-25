@@ -1,5 +1,6 @@
 :root{
-    --roboto:'Raleway', sans-serif;
+    --roboto: 'Roboto',sans-serif;
+    --releway:'Raleway',sans-serif;
     --color:#434455;
     --whitecolor:#FFFFFF;
 }
