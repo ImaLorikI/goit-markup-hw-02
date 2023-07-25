@@ -4,6 +4,7 @@
     --color:#434455;
     --whitecolor:#FFFFFF;
     --purpule:#4d5ae5;
+    --hover:#404BBF;
 }
 body{
     font-family:var(--roboto);
@@ -36,18 +37,44 @@ color: var(--purpule);
     color:#2e2f42;
 } 
 .link:hover{
-color: #404bbf;
+color: var(--hover);
 }
 .link:active
 {
-color: #404bbf;
+color: var(--hover);
 }
 .link:focus{
-    color:#404bbf;
+    color:var(--hover);
 }
 .adress{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.section1{
+    background-color:#2e2f42;
+}
+h1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--whitecolor);
+}
+.button{
+    background-color: #4D5AE5;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--whitecolor);
+    cursor: pointer;
+}
+.button:hover{
+    color:var(--hover);
+}
+.button:focus{
+    color: var(--hover);
 }
