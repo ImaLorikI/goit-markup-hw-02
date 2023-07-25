@@ -1,0 +1,10 @@
+:root{
+    --roboto:'Raleway', sans-serif;
+    --color:#434455;
+    --whitecolor:#FFFFFF;
+}
+body{
+    font-family:var(--roboto);
+    color:var(--color);
+    background-color: var(--whitecolor);
+}
