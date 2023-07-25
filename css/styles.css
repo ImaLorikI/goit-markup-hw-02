@@ -52,10 +52,10 @@ color: var(--hover);
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section1{
+.section{
     background-color:#2e2f42;
 }
-h1{
+.hh{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -76,5 +76,8 @@ h1{
     color:var(--hover);
 }
 .button:focus{
+    color: var(--hover);
+}
+.button:active{
     color: var(--hover);
 }
