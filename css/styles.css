@@ -3,9 +3,50 @@
     --releway:'Raleway',sans-serif;
     --color:#434455;
     --whitecolor:#FFFFFF;
+    --purpule:#4d5ae5;
 }
 body{
     font-family:var(--roboto);
     color:var(--color);
     background-color: var(--whitecolor);
+}
+.logo{
+color: var(--purpule);
+    font-family:var(--releway);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.link{
+    text-decoration: none;
+}
+.studio{
+    color:#2e2f42;
+}
+.list{
+    list-style: none;
+}
+.mainpage{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+} 
+.link:hover{
+color: #404bbf;
+}
+.link:active
+{
+color: #404bbf;
+}
+.adress{
+    font-style: normal;
+}
+.adress .format{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
 }
