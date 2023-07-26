@@ -104,3 +104,6 @@ color: var(--hover);
 .lastsection{
     background-color: #F4F4FD;
 }
+.whiteback{
+    background-color:var(--whitecolor)
+}
