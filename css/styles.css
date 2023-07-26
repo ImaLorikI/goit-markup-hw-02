@@ -117,5 +117,28 @@ color: var(--hover);
 }
 .studiofotter{
     color:#f4f4fd;
-    
+}
+.buttonportfolio{
+    font-family:var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--purpule);
+    background-color:#F4F4FD;
+    cursor: pointer;
+}
+.buttonportfolio:hover{
+    color:var(--whitecolor);
+    background-color: #404BBF
+}
+.buttonportfolio:focus {
+    color: var(--whitecolor);
+    background-color: #404BBF
+}
+.paragrafphoto{
+    color: #434455;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
